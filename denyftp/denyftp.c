@@ -36,8 +36,8 @@ void dosftp(int s_port, char *s_address)
 //---	SOCKET --------------------------------------------------------------
 
 
-	char mysocket;
-	char myconnect;
+	int mysocket;
+	int myconnect;
 	
 	struct sockaddr_in goal;
 	
